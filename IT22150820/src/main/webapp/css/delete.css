@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255,204,230);
+    text-align: center;
+    
+}
+
+/* Header Styles */
+#header {
+    background-color: #FF7BBD;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#header img {
+    height: 50px;
+}
+
+/* Navigation Styles */
+#nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#nav ul li {
+    margin-right: 20px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+form h1 {
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4444; /* Use your desired button color */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #cc0000; /* Change the hover color accordingly */
+}
+
+footer {
+    background-color:#FF7BBD;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 20px;
+}
+ 
+footer img {
+    height: 30px;
+}
+
+footer h3 {
+margin: 0 10px;
+font-size: 20px;
+}
+
+footer p {
+margin: 5px 0;
+font-size: 14px;
+}
